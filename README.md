@@ -16,7 +16,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 Type the below and follow the on screen prompts.
 
-    $ imdb-movies
+    $ imdb-films
 
 ## Development
 
