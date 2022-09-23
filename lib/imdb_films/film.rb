@@ -12,6 +12,14 @@ def initialize(title, people, rank, year, rating, url)
     @url = url 
     @@all << self
   end 
+
+  def self.all
+    @@all 
+  end 
+
+  def self.find(id)
+    self.all[id]
+  end
   
 
 end 
