@@ -50,7 +50,8 @@ def print_film(film)
     puts "Rating: #{film.rating}".delete(' 
 ').insert(7, ' ')
     puts "Url: #{film.url}"
-    puts "Would you like to learn about another movie?"
+    puts "Plot: #{film.plot}"
+    puts "Would you like to learn about another film?"
     gets_input 
 end 
 
